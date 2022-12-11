@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/ic_action_home"/>
+    <item
+         android:id="@+id/profileFragment"
+         android:title="@string/profile"
+         android:icon="@drawable/ic_action_profile"/>
+    <item
+            android:id="@+id/eligibilityCriteriaFragment"
+            android:title="@string/eligibility_criteria"
+            android:icon="@drawable/ic_action_eligibility_calculator"/>
+    <item
+        android:id="@+id/purchaseHistoryFragment"
+        android:title="@string/purchasehistory"
+        android:icon="@drawable/ic_action_purchasehistory"/>
+    <item
+        android:id="@+id/contactUsFragment"
+        android:title="@string/contactus"
+        android:icon="@drawable/ic_action_contactus"/>
+    <item
+        android:id="@+id/aboutUsFragment"
+        android:icon="@drawable/ic_action_aboutus"
+        android:title="@string/aboutus" />
+    <item
+        android:id="@+id/privacyPolicyFragment"
+        android:icon="@drawable/ic_action_privacypolicy"
+        android:title="@string/privacypolicy" />
+    <item
+        android:id="@+id/tncFragment"
+        android:icon="@drawable/ic_action_privacypolicy"
+        android:title="@string/tnc" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_action_logout"
+        android:title="@string/logout" />
+    </group>
+
+</menu>

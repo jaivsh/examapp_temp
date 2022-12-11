@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_marks_count"
+                android:src="@drawable/ic_action_marks"
+                android:id="@+id/fab_marks"
+                android:layout_marginTop="4dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/fab_marks"
+                app:layout_constraintEnd_toEndOf="@id/fab_marks"
+                android:layout_marginTop="4dp"
+                android:text="Marks"
+                android:id="@+id/tv_marks"
+                app:layout_constraintTop_toBottomOf="@id/fab_marks"/>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/fab_right"
+                app:layout_constraintEnd_toEndOf="@id/fab_right"
+                android:layout_marginTop="4dp"
+                android:text="Right"
+                android:id="@+id/tv_right"
+                app:layout_constraintTop_toBottomOf="@id/fab_right"/>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/fab_marks"
+                app:layout_constraintStart_toStartOf="@id/fab_marks"
+                android:layout_marginTop="16dp"
+                android:text="02"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/black"
+                android:id="@+id/tv_marks_count"/>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/fab_right"
+                app:layout_constraintBottom_toBottomOf="@id/fab_right"
+                app:layout_constraintStart_toEndOf="@id/fab_right"
+                android:text="3/12"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/green_700"
+                android:id="@+id/tv_right_answer"/>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@id/fab_wrong"
+                app:layout_constraintBottom_toBottomOf="@id/fab_wrong"
+                app:layout_constraintEnd_toStartOf="@id/fab_wrong"
+                android:text="3/12"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/red_700"
+                android:id="@+id/tv_wrong_answer"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/fab_wrong"
+                app:layout_constraintEnd_toEndOf="@id/fab_wrong"
+                android:layout_marginTop="4dp"
+                android:text="Wrong"
+                android:id="@+id/tv_wrong"
+                app:layout_constraintTop_toBottomOf="@id/fab_wrong"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/fab_marks"
+                app:layout_constraintTop_toBottomOf="@id/tv_marks"
+                android:src="@drawable/ic_action_right"
+                android:id="@+id/fab_right"
+                app:tint="@color/white"
+                android:backgroundTint="@color/green_700"
+                android:layout_marginTop="16dp"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/fab_marks"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_marks"
+                android:src="@drawable/ic_action_wrong"
+                android:id="@+id/fab_wrong"
+                app:tint="@color/white"
+                android:backgroundTint="@color/red_700"
+                android:layout_marginTop="16dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_questions"
+                app:layout_constraintTop_toBottomOf="@id/tv_wrong"
+                android:layout_marginTop="16dp"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

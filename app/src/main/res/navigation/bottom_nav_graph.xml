@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_nav_graph.xml"
+    app:startDestination="@+id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/LandingPageFragment"
+        android:name="com.app.examprep.fragment.LandingPageFragment"
+        android:title="Landing"
+        android:label="LandingPageFragment" >
+        <action
+            android:id="@+id/action_landing_to_notificationFragment"
+            app:destination="@id/NotificationFragment" />
+        <action
+            android:id="@+id/action_landing_to_coursesFragment"
+            app:destination="@id/courses" />
+        <action
+            android:id="@+id/action_landing_to_testsFragment"
+            app:destination="@+id/testsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_testHistoryFragment"
+            android:label="@string/tests"
+            app:destination="@id/testHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NotificationFragment"
+        android:title="Notifications"
+        android:name="com.app.examprep.fragment.NotificationsBlockFragment"
+        android:label="NotificationFragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/courses"
+        android:title="Courses"
+        android:name="com.app.examprep.fragment.CourseFragment"
+        android:label="CourseFragment">
+        <action
+            android:id="@+id/action_courseFragment_to_lessonsFragment"
+            app:destination="@id/lessonsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testsFragment"
+        android:title="Tests"
+        android:name="com.app.examprep.fragment.TestsFragment"
+        android:label="TestsFragment">
+        <action
+            android:id="@+id/action_testsFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_testsFragment_to_pdfViewFragment"
+            app:destination="@id/pdfViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favourites"
+        android:title="Favourites"
+        android:name="com.app.examprep.fragment.FavouriteFragment"
+        android:label="FavouriteFragment" />
+    <fragment
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:name="com.app.examprep.fragment.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.app.examprep.fragment.AboutUsFragment"
+        android:label="@string/aboutus" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.app.examprep.fragment.ContactUsFragment"
+        android:label="@string/contactus" />
+    <fragment
+        android:id="@+id/myMaterialFragment2"
+        android:name="com.app.examprep.fragment.home.MyMaterialFragment"
+        android:label="My Materials" />
+    <fragment
+        android:id="@+id/myOrdersFragment"
+        android:name="com.app.examprep.fragment.MyOrdersFragment"
+        android:label="@string/myorders" />
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.app.examprep.fragment.PrivacyPolicyFragment"
+        android:label="@string/privacypolicy" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.app.examprep.fragment.ProfileFragment"
+        android:label="@string/profile" />
+    <fragment
+        android:id="@+id/eligibilityCriteriaFragment"
+        android:name="com.app.examprep.fragment.EligibilityCriteriaFragment"
+        android:label="@string/eligibility_criteria" />
+    <fragment
+        android:id="@+id/purchaseHistoryFragment"
+        android:name="com.app.examprep.fragment.PurchaseHistoryFragment"
+        android:label="@string/purchasehistory" />
+    <fragment
+        android:id="@+id/tncFragment"
+        android:name="com.app.examprep.fragment.TncFragment"
+        android:label="@string/termsandconditions" />
+    <fragment
+        android:id="@+id/lessonsFragment"
+        android:name="com.app.examprep.fragment.home.course.LessonsFragment"
+        android:label="@string/lessons" >
+        <action
+            android:id="@+id/action_lessonsFragment_to_contentFragment"
+            app:destination="@id/contentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contentFragment"
+        android:name="com.app.examprep.fragment.home.course.ContentFragment"
+        android:label="@string/contents" >
+        <action
+            android:id="@+id/action_contentFragment_to_pdfViewFragment"
+            app:destination="@id/pdfViewFragment" />
+        <action
+            android:id="@+id/action_contentFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_contentFragment_to_videoViewFragment"
+            app:destination="@id/videoViewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pdfViewFragment"
+        android:name="com.app.examprep.fragment.home.course.PdfViewFragment"
+        android:label="Pdf"/>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.app.examprep.fragment.login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.app.examprep.fragment.login.SplashScreenFragment"
+        android:label="SplashScreenFragment">
+        <action
+            android:id="@+id/action_splashScreenFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_graph"/>
+        <action
+            android:id="@+id/action_splashScreenFragment_to_landingFragment"
+            app:destination="@id/LandingPageFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_graph"/>
+        <action
+            android:id="@+id/action_splashScreenFragment_to_mobileLoginFragment"
+            app:destination="@id/mobileLoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.app.examprep.fragment.home.course.QuizFragment"
+        android:label="QuizFragment" >
+        <action
+            android:id="@+id/action_quizFragment_to_quizResultFragment"
+            app:destination="@id/quizResultFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/quizFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/quizResultFragment"
+        android:name="com.app.examprep.fragment.home.course.QuizResultFragment"
+        android:label="Quiz Result" />
+    <fragment
+        android:id="@+id/videoViewFragment"
+        android:name="com.app.examprep.fragment.home.course.VideoViewFragment"
+        android:label="VideoViewFragment" />
+    <fragment
+        android:id="@+id/mobileLoginFragment"
+        android:name="com.app.examprep.fragment.login.MobileLoginFragment"
+        android:label="MobileLoginFragment" >
+        <action
+            android:id="@+id/action_mobileLoginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_mobileLoginFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.app.examprep.fragment.login.OtpFragment"
+        android:label="OtpFragment" >
+        <action
+            android:id="@+id/action_otpFragment_to_landingFragment"
+            app:destination="@id/LandingPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.app.examprep.fragment.login.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_mobileLoginFragment"
+            app:destination="@id/mobileLoginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testHistoryFragment"
+        android:name="com.app.examprep.fragment.home.course.TestHistoryFragment"
+        android:label="Quiz History" >
+        <action
+            android:id="@+id/action_testHistoryFragment_to_quizResultFragment"
+            app:destination="@id/quizResultFragment" />
+        <action
+            android:id="@+id/action_testHistoryFragment_to_quizHistoryDataFragment"
+            app:destination="@id/quizHistoryDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizHistoryDataFragment"
+        android:name="com.app.examprep.fragment.home.QuizHistoryDataFragment"
+        android:label="Quiz History Data" />
+</navigation>

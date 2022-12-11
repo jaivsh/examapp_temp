@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/cd_count">
+
+    </ImageView>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/cd_count"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/tv_lessonname"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/cd_count"
+        tools:text="FIRST LESSON"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_free"
+        android:layout_marginEnd="16dp"
+        android:text="Free"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textColor="@color/green_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cd_count"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/cd_count"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/tv_category"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/cd_count"
+        tools:text="HISTORY"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cd_count"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/cd_count"
+        android:src="@drawable/lock"
+        android:id="@+id/iv_lockimg"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

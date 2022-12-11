@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/educationIcon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_action_eligibility_education"/>
+    <TextView
+        android:id="@+id/eligibilityText"
+        android:textSize="20dp"
+        android:hint="Enter Qualification"
+        android:textColor="#a6a6a6"
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

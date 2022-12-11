@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ఉద్యోగ నేస్తం</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_material">My Material</string>
+    <string name="home">Home</string>
+    <string name="courses">Courses</string>
+    <string name="tests">Tests</string>
+    <string name="favourites">Favourites</string>
+    <string name="settings">Settings</string>
+    <string name="landing">Landing</string>
+    <string name="profile">Profile</string>
+    <string name="eligibility_criteria">Eligibility Criteria</string>
+    <string name="purchasehistory">Purchase History</string>
+    <string name="myorders">My Orders</string>
+    <string name="contactus">Contact Us</string>
+    <string name="aboutus">About Us</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="tnc">Tnc</string>
+    <string name="logout">Log Out</string>
+    <string name="termsandconditions">Terms and Conditions</string>
+    <string name="lessons">Lessons</string>
+    <string name="contents">Contents</string>
+    <string name="webclient_id">508856289441-093l9iin9sv38vjr1ai6p5jd7io545sq.apps.googleusercontent.com</string>
+    <string name="share">Share</string>
+    <string name="submitissue">Submit Issue</string>
+</resources>

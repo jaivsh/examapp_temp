@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/.gradle/caches/transforms-3/6527c5fc7860f7ba677c08bbd80c6328/transformed/jetified-ui-1.0.9/res/layout/cf_item_payment_mode_paylater.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_email.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_notification.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_phone.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_right.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_share.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_submitissue.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_testhistory.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable-anydpi/ic_action_wrong.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/drawable/gradient1.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/activity_checkout.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/activity_main.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/app_bar_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/dialog_progress.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_contactus.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_lessons.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_list.xml" value="0.17" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_login_mobile.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_mymaterial.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_myorders.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_otp.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_primary.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_purchasehistory.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_quiz.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_quizresult.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_shop.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_teamhistory.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_tnc.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_top.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/fragment_videoview.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/layout_empty.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/rv_content.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/rv_lesson.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/rv_material.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/rv_purchasehistory.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/rv_quiz.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/rv_quiz_result.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/layout/rv_submit_issue.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/menu/activity_main_drawer.xml" value="0.21" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/menu/options_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_examprep.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_examprep_round.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/ExamPrep/app/src/main/res/xml/file_paths.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

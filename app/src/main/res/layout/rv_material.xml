@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="6dp"
+    android:layout_margin="8dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="12dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:src="@drawable/modelimg"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_course"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_course"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:lines="3"
+            android:layout_marginStart="4dp"
+            tools:text="FIRST GRADE TEACHER Ist PAPER COMPLETE COURSE"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:id="@+id/tv_coursename"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_coursename"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"
+            android:text="Course"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:id="@+id/tv_course"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_course"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:text="$451"
+            android:textColor="@color/red_700"
+            android:layout_marginStart="4dp"
+            android:id="@+id/tv_price"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/tv_price"
+            app:layout_constraintTop_toTopOf="@id/tv_price"
+            app:layout_constraintBottom_toBottomOf="@id/tv_price"
+            android:textSize="14sp"
+            tools:text="3000"
+           android:layout_marginStart="8dp"
+            android:id="@+id/tv_actualprice"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
